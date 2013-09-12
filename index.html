@@ -60,6 +60,12 @@ $ git checkout gh-pages
       </section>
     </div>
 
+<h3>List id Posts</h3>
+<p>
+    {% for post in site.posts %}
+        <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</p>
     
   </body>
 </html>
