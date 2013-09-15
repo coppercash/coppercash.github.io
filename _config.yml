@@ -1,1 +1,4 @@
-destination: ./_site
+pygments: true
+permalink: /:year/:month/:day/:title.html
+name: "Copper Cash"
+markdown: rdiscount
