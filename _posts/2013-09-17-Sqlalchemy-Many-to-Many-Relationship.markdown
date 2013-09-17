@@ -6,11 +6,13 @@ tags:
     - sqlalchemy
 ---
 
-There are three key words of Many-to-Many: 'primaryjoin', 'secondary', 'secondaryjoin'. And they are three parameters of funtion ‘Relationship’.
+The three parameters `primaryjoin`, `secondary`, `secondaryjoin` of function `relationship()` are the keys of many to many relationship.
 
-In SQL, to impletement Many=to-Many requires three tables. Table A and B for two entities need to be related, and table C present the relationship. Parameter 'secondary' is the table C, 'primaryjoin' is the method that connectC and A (or B), 'secondaryjoin' is another method that connect C and B (or A).
+In SQL, to impletement Many-to-Many requires three tables. Let's call them Table A, B, C.  Table A and B for two entities need to be related, and table C present the relationship. 
 
-For instance, the [code]() may look like this:
+Back to our three parameters of `relationship()`. Parameter `secondary` is the table C, `primaryjoin` is the method that connects C and A (or B), `secondaryjoin` is another method that connects C and B (or A).
+
+For instance, the [code](/media/files/2013/09/17/Many_to_Many.py) may look like this:
 
     attend_party = Table('attend_party',
         Column('people_id', Integer, ForeignKey('people.id')),
@@ -24,7 +26,6 @@ For instance, the [code]() may look like this:
             Integer, primary_key=True
         )
 
-
     class Party(Base):
         __tablename__ = 'party'
 
@@ -37,3 +38,17 @@ For instance, the [code]() may look like this:
             secondaryjoin= lambda : attend_party.c.people_id==People.id,
             backref=backref('parties_attended')
         )
+
+
+And I make a diagram:
+![MtM Relationship between tables](/media/files/2013/09/17/Many_to_Many.png)
+
+Finally thanks to the fuction `ForeignKey()`, it bounds the two columns that need to be joined (primary or secondary). In the sample above, the property `participant` of class `Party` can be simplified like this:
+
+    participant = relationship(
+        'People',
+        secondary=attend_party,
+        backref=backref('parties_attended')
+    )
+
+Simple is the best!
