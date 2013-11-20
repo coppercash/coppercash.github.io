@@ -6,7 +6,7 @@ tags:
   - autolayout 
 ---
 
-I implement some complex and typical ciucumstances in this [demo](http://github.com)
+I implement some complex and typical ciucumstances in this [demo](https://github.com/coppercash/Demo_AutoLayout)
 
 ### Case I - Buttons with multileve priorities
 
