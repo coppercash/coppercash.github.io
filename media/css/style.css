@@ -21,7 +21,7 @@ body {
   color: #555; }
 
 ol, ul {
-  list-style-position: inside; }
+  padding-left: 40px; }
 
 li {
   padding: .2em 0; }
@@ -106,7 +106,7 @@ header {
 
 ul.listing {
   margin-top: 1em; }
-  ul.listing li {
+  ul.listing > li {
     list-style-type: none;
     padding: 0; }
     ul.listing li.listing-item a, ul.listing li.listing-item header #header h1 a, header #header h1 ul.listing li.listing-item a {
