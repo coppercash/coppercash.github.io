@@ -37,7 +37,7 @@ mail
 
 
 > 做过的事
->> 在现在公司负责的两个iOS App: "[一起拍](http://)", "[加意新品](http://)"。
+>> 在现在公司负责的两个iOS App: "[一起拍](https://itunes.apple.com/us/app/yi-qi-pai-bu-yi-yang-tu-pian/id645448901?ls=1&mt=8)", "[加意新品](https://itunes.apple.com/us/app/jia-yi-xin-pin/id579593766?ls=1&mt=8)"。
 
 >> 毕设时设计了一套名为"[LAH](https://github.com/coppercash/Lazy_API_with_HTML)"的html匹配语言，并实现了它的解释器。后来开发了一个学习英文的app，使用这个库从别人的网站上每天动态获取最新的听力材料。
 
