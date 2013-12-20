@@ -15,7 +15,7 @@
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="02.svg"
+   sodipodi:docname="ssl_02.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0">
   <defs
@@ -383,9 +383,9 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.56036356"
      inkscape:cx="1146.775"
-     inkscape:cy="1439.8858"
+     inkscape:cy="1582.6503"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      inkscape:window-width="1440"
      inkscape:window-height="852"
      inkscape:window-x="0"
@@ -400,6 +400,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -412,14 +413,21 @@
     <g
        transform="matrix(0.0937139, 0, 0, 0.0937139, 836.342, 804.143)"
        id="g8284"
-       inkscape:label="Warstwa 1">
+       inkscape:label="Warstwa 1"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          transform="matrix(2.11659, 0, 0, 2.11659, -102.645, -421.377)"
          inkscape:label="Warstwa 1"
          id="g8286" />
     </g>
     <g
-       id="g4390">
+       id="g4390"
+       transform="translate(0,-155.25635)"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          id="g3038"
          transform="matrix(0.0937139,0,0,0.0937139,1508.2333,579.97306)">
@@ -570,7 +578,11 @@
       </g>
     </g>
     <g
-       id="g4371">
+       id="g4371"
+       transform="translate(-8.9227786,-136.9799)"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          transform="matrix(0.0937139,0,0,0.0937139,1505.7095,471.63462)"
          id="use2953">
@@ -672,9 +684,15 @@
     </g>
     <g
        transform="translate(531.727, -963.312)"
-       id="use2969" />
+       id="use2969"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
-       id="g3896">
+       id="g3896"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          inkscape:label="Warstwa 1"
          id="use2909"
@@ -949,13 +967,16 @@
        xml:space="preserve"
        style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#0000a0;fill-opacity:1;stroke:none;font-family:Nimbus Sans L"
        x="1847.5934"
-       y="876.04962"
+       y="708.04962"
        id="text18467"
-       sodipodi:linespacing="100%"><tspan
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan18469"
          x="1847.5934"
-         y="876.04962"
+         y="708.04962"
          style="font-size:44px;font-style:normal;fill:#0000a0;fill-opacity:1">Phase 2</tspan></text>
     <text
        sodipodi:linespacing="100%"
@@ -963,14 +984,21 @@
        y="454.87601"
        x="1841.3763"
        style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#0000a0;fill-opacity:1;stroke:none;font-family:Nimbus Sans L"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          style="font-size:44px;font-style:normal;fill:#0000a0;fill-opacity:1"
          y="454.87601"
          x="1841.3763"
          id="tspan18473"
          sodipodi:role="line">Phase 1</tspan></text>
     <g
-       id="g4342">
+       id="g4342"
+       transform="translate(0,-80)"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          inkscape:label="Warstwa 1"
          id="use4543"
@@ -1126,7 +1154,11 @@
       </g>
     </g>
     <g
-       id="g4322">
+       id="g4322"
+       transform="translate(1.7845557,-51.752116)"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          inkscape:label="Warstwa 1"
          id="use4555"
@@ -1239,162 +1271,154 @@
      style="display: inline;"
      transform="translate(54.3786, -11.8577)">
     <path
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.23104668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend);display:inline"
-       d="m 530.7442,190.63786 c 0,916.57974 0,916.57974 0,916.57974"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.01359916;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 530.7442,190.63786 c 0,746.61885 0,746.61885 0,746.61885"
        id="path3244"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        id="use3526"
-       d="m -59.687958,676.94044 c 1939.422458,0 1939.422458,0 1939.422458,0 l 0,0"
-       style="fill:none;stroke:#0000a0;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 6;stroke-dashoffset:0"
-       inkscape:connector-curvature="0" />
+       d="m 168.61752,510.94044 c 1711.11698,0 1711.11698,0 1711.11698,0 l 0,0"
+       style="fill:none;stroke:#0000a0;stroke-width:1.87859702;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.87859705, 5.63579115;stroke-dashoffset:0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <use
        style="display:inline"
        x="0"
        y="0"
        xlink:href="#path3244"
        id="use6353"
-       transform="matrix(1,0,0,0.99836961,758.924,0.31081334)"
+       transform="matrix(1,0,0,0.99836961,758.924,0.31081347)"
        width="2081"
-       height="1853" />
+       height="1853"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
-       id="g4313">
-      <path
-         inkscape:connector-curvature="0"
-         id="use11212"
-         d="m 532.9942,283.79366 c 754.9259,0 754.9259,0 754.9259,0"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart);marker-end:none;display:inline" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:none"
-         d="m 534.31139,398.34755 c 81.65397,-26.58501 -1.66158,-76.19456 -1.66158,-76.19456"
-         id="use15154"
-         sodipodi:nodetypes="cc" />
-      <use
-         height="1853"
-         width="2081"
-         transform="matrix(0.514825,0,0,0.514825,548.42815,240.33105)"
-         id="use2983"
-         xlink:href="#use2979"
-         y="0"
-         x="0"
-         style="display:inline" />
-      <text
-         sodipodi:linespacing="100%"
-         id="text2371"
-         y="273.55331"
-         x="940.91101"
-         style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L"
-         xml:space="preserve"><tspan
-           y="273.55331"
-           x="940.91101"
-           id="tspan2373"
-           sodipodi:role="line">public key of server</tspan></text>
-      <text
-         sodipodi:linespacing="100%"
-         id="text2379"
-         y="368.33441"
-         x="580.71301"
-         style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L"
-         xml:space="preserve"><tspan
-           y="368.33441"
-           x="580.71301"
-           id="tspan2381"
-           sodipodi:role="line">check server certificate</tspan></text>
-    </g>
-    <g
-       id="g4418">
+       id="g3264"
+       transform="translate(2.6642795e-8,30.707334)"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
-         transform="translate(0,-80)"
-         id="g3861">
+         id="g4313">
         <path
-           inkscape:connector-curvature="0"
-           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend);display:inline"
-           d="m 531.2442,587.1923 c 754.9259,0 754.9259,0 754.9259,0"
-           id="path10239" />
-        <path
-           style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:none"
-           d="m 1287.9824,695.40391 c -81.6539,-26.585 1.6616,-76.19453 1.6616,-76.19453"
-           id="use15162"
-           sodipodi:nodetypes="cc"
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart);marker-end:none;display:inline"
+           d="m 532.9942,283.79366 c 754.9259,0 754.9259,0 754.9259,0"
+           id="use11212"
            inkscape:connector-curvature="0" />
-        <g
-           transform="matrix(0.04635633,0,0,0.04635633,815.8564,551.02338)"
-           id="use2981"
-           inkscape:label="Warstwa 1">
-          <g
-             transform="matrix(2.11659,0,0,2.11659,-102.645,-421.377)"
-             inkscape:label="Warstwa 1"
-             id="g3522">
-            <path
-               inkscape:connector-curvature="0"
-               style="fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:5.33539009;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-               d="m 173.53125,283.5625 c -53.64548,0 -97.187503,40.88651 -97.1875,91.28125 0,50.39475 43.54201,91.3125 97.1875,91.3125 40.28604,0 74.86505,-23.07036 89.59375,-55.90625 l 25.25,0 c 0.33673,-17.88805 -0.69012,-15.4375 -0.69012,-15.4375 l 20.8776,8.24565 2.12502,4e-5 10.375,-15.43319 9.47091,14.28402 3.06185,0.10828 12.65474,-13.86105 19.32558,17.05008 8.40221,0.009 22.08471,-17.58999 14.80919,16.10582 3.40241,-0.13117 9.5384,-6.72465 13.12963,5.01816 11.56744,-0.53771 14.83418,-15.7617 11.2089,14.38223 6.93771,4.1e-4 36.35339,-47.13264 0,-13.40625 -254.71875,0 c -14.7287,-32.82711 -49.30771,-55.875 -89.59375,-55.875 z m -46.375,65.875 c 14.03637,-10e-6 25.40625,11.40113 25.40625,25.4375 0,14.03637 -11.36988,25.40625 -25.40625,25.40625 -14.03637,10e-6 -25.4375,-11.40113 -25.4375,-25.4375 0,-14.03637 11.40113,-25.40625 25.4375,-25.40625 z"
-               id="path3524"
-               sodipodi:nodetypes="csscccccccccccccccccccccccccsssc" />
-            <rect
-               style="fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-width:5.33539009;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-               id="rect3526"
-               width="236.01192"
-               height="7.6530967"
-               x="268.09952"
-               y="347.76212" />
-            <rect
-               y="364.67529"
-               x="268.09952"
-               height="7.6530967"
-               width="223.84035"
-               id="rect3528"
-               style="fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-width:5.33539009;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-            <path
-               inkscape:connector-curvature="0"
-               style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5.33539009;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3135)"
-               d="m 517.27419,337.70247 0,11.09375 -36.375,47.125 -6.9375,0 -11.1875,-14.375 -14.84375,15.75 -11.5625,0.53125 -13.125,-5 -9.5625,6.71875 -3.375,0.125 -14.8125,-16.09375 -22.09375,17.59375 -8.40625,-0.0312 -19.3125,-17.03125 -12.65625,13.84375 -3.0625,-0.0937 -9.46875,-14.28125 -10.375,15.4375 -2.125,0 -20.625,-8.15625 c 0.2763,0.71871 0.65532,3.77241 0.4375,15.34375 l -25.25,0 c -14.7287,32.83589 -49.30771,55.90624 -89.59375,55.90625 -45.57046,0 -83.852111,-29.53222 -94.343751,-69.3125 9.5992,40.93641 48.462141,71.625 94.906251,71.625 40.28604,2e-5 74.86505,-23.07036 89.59375,-55.90625 l 25.25,0 c 0.21046,-11.18002 -0.10376,-14.42699 -0.375,-15.28125 l 20.5625,8.09375 2.125,0 10.375,-15.4375 9.46875,14.28125 3.0625,0.0937 12.65625,-13.84375 19.34375,17.03125 8.40625,0.0312 22.0625,-17.59375 14.8125,16.09375 3.40625,-0.125 9.53125,-6.71875 13.125,5 11.59375,-0.53125 14.8125,-15.75 11.21875,14.375 6.9375,0 36.34375,-47.125 0,-13.40625 -0.5625,0 z m -390.6875,7.6875 c -14.03637,0 -25.4375,11.36987 -25.4375,25.40625 0,2.58721 0.37395,5.08425 1.09375,7.4375 -0.33916,-1.65507 -0.53125,-3.37045 -0.53125,-5.125 0,-14.03635 11.40113,-25.40625 25.4375,-25.40625 11.40455,10e-6 21.0656,7.52376 24.28125,17.875 -2.41592,-11.52341 -12.60602,-20.18751 -24.84375,-20.1875 z"
-               id="path3530" />
-            <path
-               inkscape:connector-curvature="0"
-               style="fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter3148)"
-               d="m 173.53125,283.5625 c -53.64548,-10e-6 -97.1875,40.88651 -97.1875,91.28125 0,6.29935 0.673372,12.46447 1.96875,18.40625 -0.917961,-5.03701 -1.375,-10.21862 -1.375,-15.5 0,-50.39474 43.54203,-91.28125 97.1875,-91.28125 40.28604,0 74.86504,23.04789 89.59375,55.875 l 254.125,0 0,-2.90625 -254.71875,0 c -14.72869,-32.82709 -49.30771,-55.875 -89.59375,-55.875 z m -21.1875,87.875 c 0.15187,1.12438 0.21875,2.27174 0.21875,3.4375 0,14.03639 -11.36988,25.40625 -25.40625,25.40625 -11.81881,3e-5 -21.74466,-8.06654 -24.59375,-19 1.72249,12.36759 12.3498,21.90626 25.1875,21.90625 14.03637,0 25.40626,-11.36988 25.40625,-25.40625 0,-2.19318 -0.29053,-4.31268 -0.8125,-6.34375 z"
-               id="path3532" />
-            <path
-               inkscape:connector-curvature="0"
-               style="fill:#808080;fill-opacity:1;stroke:none;filter:url(#filter3208)"
-               d="m 190.99738,294.92188 c -2.03568,0.37319 -3.956,1.35147 -5.46875,2.8125 -2.06874,1.998 -3.22125,4.74894 -3.21875,7.625 l 0,138.53125 c -0.004,2.8257 1.12132,5.52623 3.09375,7.5 -0.87543,-1.56042 -1.37735,-3.31865 -1.375,-5.15625 l 0,-138.53125 c -0.002,-2.87606 1.15001,-5.627 3.21875,-7.625 1.07628,-1.03949 2.36633,-1.83706 3.75,-2.34375 l 0,-2.8125 z m 4.625,0.1875 0,159.03125 c 0.58026,-0.14075 1.14443,-0.28564 1.71875,-0.4375 l 0,-156.25 c 2.56001,0.62043 5.07399,1.3598 7.53125,2.1875 l 0,-1.75 c -3.01256,-1.07802 -6.0861,-2.01446 -9.25,-2.78125 z m 13.875,4.5625 0,149.90625 c 0.58305,-0.24553 1.14177,-0.49277 1.71875,-0.75 l 0,-146.8125 c 2.5743,1.08324 5.09332,2.25918 7.53125,3.5625 l 0,-1.375 c -2.96738,-1.67143 -6.06546,-3.19122 -9.25,-4.53125 z m 13.875,7.34375 0,135.21875 c 0.57891,-0.37453 1.15063,-0.73733 1.71875,-1.125 l 0,-131.75 c 2.61991,1.6942 5.13049,3.49727 7.53125,5.4375 l 0,-0.90625 c -2.91132,-2.48193 -5.99879,-4.77256 -9.25,-6.875 z m 13.875,11.15625 0,112.90625 c 0.58654,-0.57973 1.14855,-1.15466 1.71875,-1.75 l 0,-108.8125 c 2.5365,2.50572 4.92965,5.12702 7.125,7.90625 -2.65524,-3.63555 -5.61539,-7.06081 -8.84375,-10.25 z m 8.84375,10.25 c 0.13785,0.17451 0.26994,0.35563 0.40625,0.53125 l 0,-0.0312 c -0.12484,-0.17406 -0.27989,-0.32698 -0.40625,-0.5 z m 5.03125,7.78125 0,76.8125 c 0.60243,-1.06266 1.16505,-2.12952 1.71875,-3.21875 l 0,-70.34375 c -0.5537,-1.08898 -1.11632,-2.18773 -1.71875,-3.25 z"
-               id="path3534" />
-            <path
-               inkscape:connector-curvature="0"
-               style="fill:#ffdd55;fill-opacity:1;stroke:none;filter:url(#filter3252)"
-               d="m 191.49738,295.42188 c -1.00825,0.18484 -1.9901,0.53316 -2.90625,1 l 0,156.0625 c -1.10144,-0.20173 -2.1635,-0.58732 -3.15625,-1.125 0.42506,0.48524 0.89084,0.93685 1.40625,1.34375 1.37421,1.08491 2.97704,1.7862 4.65625,2.09375 l 0,-159.375 z m 10.96875,2 0,152.125 c -2.07956,0.74478 -4.19659,1.43148 -6.34375,2.03125 l 0,3.0625 c 3.16413,-0.76752 6.23724,-1.70226 9.25,-2.78125 l 0,-153.46875 c -0.95859,-0.34303 -1.93437,-0.6553 -2.90625,-0.96875 z m 13.875,5.71875 0,140.09375 c -2.05712,1.15952 -4.17573,2.24663 -6.34375,3.25 l 0,3.59375 c 3.18453,-1.34102 6.28264,-2.85866 9.25,-4.53125 l 0,-140.84375 c -0.95437,-0.53758 -1.92631,-1.05724 -2.90625,-1.5625 z m 13.875,8.9375 0,121.4375 c -2.02733,1.72934 -4.15165,3.35469 -6.34375,4.90625 l 0,4.3125 c 3.25356,-2.10489 6.33678,-4.42124 9.25,-6.90625 l 0,-121.4375 c -0.94295,-0.80389 -1.92676,-1.54865 -2.90625,-2.3125 z m 7.53125,6.59375 0,0.6875 c 2.27889,2.46373 4.39858,5.03781 6.34375,7.75 l 0,91.375 c -1.94144,2.70814 -4.06978,5.28164 -6.34375,7.75 l 0,5.34375 c 3.382,-3.34272 6.50197,-6.94799 9.25,-10.78125 l 0,-91.375 c -2.74803,-3.83164 -5.868,-7.40904 -9.25,-10.75 z m 13.875,18.03125 0,3.3125 c 4.69912,10.05926 7.3125,21.15011 7.3125,32.78125 0,11.63132 -2.6134,22.7205 -7.3125,32.78125 l 0,7.9375 c 6.5118,-11.48655 10.21875,-24.5634 10.21875,-38.40625 10e-6,-13.8426 -3.70692,-26.92386 -10.21875,-38.40625 z"
-               id="path3536" />
-          </g>
-        </g>
+        <use
+           style="display:inline"
+           x="0"
+           y="0"
+           xlink:href="#use2979"
+           id="use2983"
+           transform="matrix(0.514825,0,0,0.514825,548.42815,240.33105)"
+           width="2081"
+           height="1853" />
         <text
            xml:space="preserve"
            style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L"
-           x="580.71301"
-           y="575.39655"
-           id="text2383"
+           x="940.91101"
+           y="273.55331"
+           id="text2371"
            sodipodi:linespacing="100%"><tspan
              sodipodi:role="line"
-             id="tspan2385"
-             x="580.71301"
-             y="575.39655">public key of client</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L"
-           x="964.88"
-           y="665.58856"
-           id="text2387"
-           sodipodi:linespacing="100%"><tspan
-             sodipodi:role="line"
-             id="tspan2389"
-             x="964.88"
-             y="665.58856">check client certificate</tspan></text>
+             id="tspan2373"
+             x="940.91101"
+             y="273.55331">public key of server</tspan></text>
       </g>
     </g>
     <g
-       transform="matrix(0,0.44994849,-0.307541,0,1776.32,-247.34899)"
-       id="g7744">
+       id="g4418"
+       transform="translate(1.7845557,-44.613893)"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="translate(0,-80)"
+         id="g3861">
+        <g
+           id="g3250">
+          <path
+             id="path10239"
+             d="m 531.2442,587.1923 c 754.9259,0 754.9259,0 754.9259,0"
+             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend);display:inline"
+             inkscape:connector-curvature="0" />
+          <g
+             inkscape:label="Warstwa 1"
+             id="use2981"
+             transform="matrix(0.04635633,0,0,0.04635633,815.8564,551.02338)">
+            <g
+               id="g3522"
+               inkscape:label="Warstwa 1"
+               transform="matrix(2.11659,0,0,2.11659,-102.645,-421.377)">
+              <path
+                 sodipodi:nodetypes="csscccccccccccccccccccccccccsssc"
+                 id="path3524"
+                 d="m 173.53125,283.5625 c -53.64548,0 -97.187503,40.88651 -97.1875,91.28125 0,50.39475 43.54201,91.3125 97.1875,91.3125 40.28604,0 74.86505,-23.07036 89.59375,-55.90625 l 25.25,0 c 0.33673,-17.88805 -0.69012,-15.4375 -0.69012,-15.4375 l 20.8776,8.24565 2.12502,4e-5 10.375,-15.43319 9.47091,14.28402 3.06185,0.10828 12.65474,-13.86105 19.32558,17.05008 8.40221,0.009 22.08471,-17.58999 14.80919,16.10582 3.40241,-0.13117 9.5384,-6.72465 13.12963,5.01816 11.56744,-0.53771 14.83418,-15.7617 11.2089,14.38223 6.93771,4.1e-4 36.35339,-47.13264 0,-13.40625 -254.71875,0 c -14.7287,-32.82711 -49.30771,-55.875 -89.59375,-55.875 z m -46.375,65.875 c 14.03637,-10e-6 25.40625,11.40113 25.40625,25.4375 0,14.03637 -11.36988,25.40625 -25.40625,25.40625 -14.03637,10e-6 -25.4375,-11.40113 -25.4375,-25.4375 0,-14.03637 11.40113,-25.40625 25.4375,-25.40625 z"
+                 style="fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:5.33539009;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+                 inkscape:connector-curvature="0" />
+              <rect
+                 y="347.76212"
+                 x="268.09952"
+                 height="7.6530967"
+                 width="236.01192"
+                 id="rect3526"
+                 style="fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-width:5.33539009;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+              <rect
+                 style="fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-width:5.33539009;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+                 id="rect3528"
+                 width="223.84035"
+                 height="7.6530967"
+                 x="268.09952"
+                 y="364.67529" />
+              <path
+                 id="path3530"
+                 d="m 517.27419,337.70247 0,11.09375 -36.375,47.125 -6.9375,0 -11.1875,-14.375 -14.84375,15.75 -11.5625,0.53125 -13.125,-5 -9.5625,6.71875 -3.375,0.125 -14.8125,-16.09375 -22.09375,17.59375 -8.40625,-0.0312 -19.3125,-17.03125 -12.65625,13.84375 -3.0625,-0.0937 -9.46875,-14.28125 -10.375,15.4375 -2.125,0 -20.625,-8.15625 c 0.2763,0.71871 0.65532,3.77241 0.4375,15.34375 l -25.25,0 c -14.7287,32.83589 -49.30771,55.90624 -89.59375,55.90625 -45.57046,0 -83.852111,-29.53222 -94.343751,-69.3125 9.5992,40.93641 48.462141,71.625 94.906251,71.625 40.28604,2e-5 74.86505,-23.07036 89.59375,-55.90625 l 25.25,0 c 0.21046,-11.18002 -0.10376,-14.42699 -0.375,-15.28125 l 20.5625,8.09375 2.125,0 10.375,-15.4375 9.46875,14.28125 3.0625,0.0937 12.65625,-13.84375 19.34375,17.03125 8.40625,0.0312 22.0625,-17.59375 14.8125,16.09375 3.40625,-0.125 9.53125,-6.71875 13.125,5 11.59375,-0.53125 14.8125,-15.75 11.21875,14.375 6.9375,0 36.34375,-47.125 0,-13.40625 -0.5625,0 z m -390.6875,7.6875 c -14.03637,0 -25.4375,11.36987 -25.4375,25.40625 0,2.58721 0.37395,5.08425 1.09375,7.4375 -0.33916,-1.65507 -0.53125,-3.37045 -0.53125,-5.125 0,-14.03635 11.40113,-25.40625 25.4375,-25.40625 11.40455,10e-6 21.0656,7.52376 24.28125,17.875 -2.41592,-11.52341 -12.60602,-20.18751 -24.84375,-20.1875 z"
+                 style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5.33539009;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3135)"
+                 inkscape:connector-curvature="0" />
+              <path
+                 id="path3532"
+                 d="m 173.53125,283.5625 c -53.64548,-10e-6 -97.1875,40.88651 -97.1875,91.28125 0,6.29935 0.673372,12.46447 1.96875,18.40625 -0.917961,-5.03701 -1.375,-10.21862 -1.375,-15.5 0,-50.39474 43.54203,-91.28125 97.1875,-91.28125 40.28604,0 74.86504,23.04789 89.59375,55.875 l 254.125,0 0,-2.90625 -254.71875,0 c -14.72869,-32.82709 -49.30771,-55.875 -89.59375,-55.875 z m -21.1875,87.875 c 0.15187,1.12438 0.21875,2.27174 0.21875,3.4375 0,14.03639 -11.36988,25.40625 -25.40625,25.40625 -11.81881,3e-5 -21.74466,-8.06654 -24.59375,-19 1.72249,12.36759 12.3498,21.90626 25.1875,21.90625 14.03637,0 25.40626,-11.36988 25.40625,-25.40625 0,-2.19318 -0.29053,-4.31268 -0.8125,-6.34375 z"
+                 style="fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter3148)"
+                 inkscape:connector-curvature="0" />
+              <path
+                 id="path3534"
+                 d="m 190.99738,294.92188 c -2.03568,0.37319 -3.956,1.35147 -5.46875,2.8125 -2.06874,1.998 -3.22125,4.74894 -3.21875,7.625 l 0,138.53125 c -0.004,2.8257 1.12132,5.52623 3.09375,7.5 -0.87543,-1.56042 -1.37735,-3.31865 -1.375,-5.15625 l 0,-138.53125 c -0.002,-2.87606 1.15001,-5.627 3.21875,-7.625 1.07628,-1.03949 2.36633,-1.83706 3.75,-2.34375 l 0,-2.8125 z m 4.625,0.1875 0,159.03125 c 0.58026,-0.14075 1.14443,-0.28564 1.71875,-0.4375 l 0,-156.25 c 2.56001,0.62043 5.07399,1.3598 7.53125,2.1875 l 0,-1.75 c -3.01256,-1.07802 -6.0861,-2.01446 -9.25,-2.78125 z m 13.875,4.5625 0,149.90625 c 0.58305,-0.24553 1.14177,-0.49277 1.71875,-0.75 l 0,-146.8125 c 2.5743,1.08324 5.09332,2.25918 7.53125,3.5625 l 0,-1.375 c -2.96738,-1.67143 -6.06546,-3.19122 -9.25,-4.53125 z m 13.875,7.34375 0,135.21875 c 0.57891,-0.37453 1.15063,-0.73733 1.71875,-1.125 l 0,-131.75 c 2.61991,1.6942 5.13049,3.49727 7.53125,5.4375 l 0,-0.90625 c -2.91132,-2.48193 -5.99879,-4.77256 -9.25,-6.875 z m 13.875,11.15625 0,112.90625 c 0.58654,-0.57973 1.14855,-1.15466 1.71875,-1.75 l 0,-108.8125 c 2.5365,2.50572 4.92965,5.12702 7.125,7.90625 -2.65524,-3.63555 -5.61539,-7.06081 -8.84375,-10.25 z m 8.84375,10.25 c 0.13785,0.17451 0.26994,0.35563 0.40625,0.53125 l 0,-0.0312 c -0.12484,-0.17406 -0.27989,-0.32698 -0.40625,-0.5 z m 5.03125,7.78125 0,76.8125 c 0.60243,-1.06266 1.16505,-2.12952 1.71875,-3.21875 l 0,-70.34375 c -0.5537,-1.08898 -1.11632,-2.18773 -1.71875,-3.25 z"
+                 style="fill:#808080;fill-opacity:1;stroke:none;filter:url(#filter3208)"
+                 inkscape:connector-curvature="0" />
+              <path
+                 id="path3536"
+                 d="m 191.49738,295.42188 c -1.00825,0.18484 -1.9901,0.53316 -2.90625,1 l 0,156.0625 c -1.10144,-0.20173 -2.1635,-0.58732 -3.15625,-1.125 0.42506,0.48524 0.89084,0.93685 1.40625,1.34375 1.37421,1.08491 2.97704,1.7862 4.65625,2.09375 l 0,-159.375 z m 10.96875,2 0,152.125 c -2.07956,0.74478 -4.19659,1.43148 -6.34375,2.03125 l 0,3.0625 c 3.16413,-0.76752 6.23724,-1.70226 9.25,-2.78125 l 0,-153.46875 c -0.95859,-0.34303 -1.93437,-0.6553 -2.90625,-0.96875 z m 13.875,5.71875 0,140.09375 c -2.05712,1.15952 -4.17573,2.24663 -6.34375,3.25 l 0,3.59375 c 3.18453,-1.34102 6.28264,-2.85866 9.25,-4.53125 l 0,-140.84375 c -0.95437,-0.53758 -1.92631,-1.05724 -2.90625,-1.5625 z m 13.875,8.9375 0,121.4375 c -2.02733,1.72934 -4.15165,3.35469 -6.34375,4.90625 l 0,4.3125 c 3.25356,-2.10489 6.33678,-4.42124 9.25,-6.90625 l 0,-121.4375 c -0.94295,-0.80389 -1.92676,-1.54865 -2.90625,-2.3125 z m 7.53125,6.59375 0,0.6875 c 2.27889,2.46373 4.39858,5.03781 6.34375,7.75 l 0,91.375 c -1.94144,2.70814 -4.06978,5.28164 -6.34375,7.75 l 0,5.34375 c 3.382,-3.34272 6.50197,-6.94799 9.25,-10.78125 l 0,-91.375 c -2.74803,-3.83164 -5.868,-7.40904 -9.25,-10.75 z m 13.875,18.03125 0,3.3125 c 4.69912,10.05926 7.3125,21.15011 7.3125,32.78125 0,11.63132 -2.6134,22.7205 -7.3125,32.78125 l 0,7.9375 c 6.5118,-11.48655 10.21875,-24.5634 10.21875,-38.40625 10e-6,-13.8426 -3.70692,-26.92386 -10.21875,-38.40625 z"
+                 style="fill:#ffdd55;fill-opacity:1;stroke:none;filter:url(#filter3252)"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+          <text
+             sodipodi:linespacing="100%"
+             id="text2383"
+             y="575.39655"
+             x="580.71301"
+             style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L"
+             xml:space="preserve"><tspan
+               y="575.39655"
+               x="580.71301"
+               id="tspan2385"
+               sodipodi:role="line">public key of client</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0,0.2938246,-0.307541,0,1776.32,-92.798349)"
+       id="g7744"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          style="fill:none;stroke:#0000a0;stroke-width:16.99710083;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          d="M 989.92307,124.97274 C 985.25997,2.6092715 1109.3895,5.506351 1109.3895,5.506351 c 279.6022,0 283.6022,0 283.6022,0 C 1522.3951,6.542591 1511,-93.625339 1511,-93.625339"
@@ -1413,7 +1437,10 @@
        id="g7748" />
     <g
        id="g15506"
-       transform="matrix(0,0.34852195,-0.307541,0,1776.681,333.85376)">
+       transform="matrix(0,0.34852195,-0.307541,0,1776.681,165.85376)"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          sodipodi:nodetypes="cccc"
          id="path15508"
@@ -1451,7 +1478,10 @@
          y="932.85602" /></text>
     <g
        id="g3829"
-       transform="translate(-1.2618715,-747.0279)">
+       transform="translate(-1.2618715,-913.0279)"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          inkscape:connector-curvature="0"
          id="use11216"
@@ -1536,7 +1566,10 @@
     </g>
     <g
        id="g3885"
-       transform="translate(-1.2618715,-220.82751)">
+       transform="translate(-1.2618715,-386.82751)"
+       inkscape:export-filename="/Users/Will/Documents/MyDocumets/Blog/coppercash.github.io/media/files/2013/12/18/ssl_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <use
          height="1853"
          width="2081"
