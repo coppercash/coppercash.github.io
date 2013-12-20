@@ -21,20 +21,20 @@ This is a good idea, but not works in our story. Because Harry can't meet Sirius
 To deal this problem, some wise men invented Asymmetric Cryptography
 
 ## Asymmetric Cryptography
-The difference between Asymmetric Cryptography and traditional cryptograghy, also named Reciprocal cipher, is that it has two secret. And if you encrypt something with SECRET-A you can't decrypt it unless you have SECRET-B. 
-The two secrets is well known as PUBLIC-KEY and PRIVATE-KEY. Their relations is like left and right. left is so called left is baecause the other side is called right. If you choose PUBLIC-KEY as PRIVATE-KEY, the PRIVATE-KEY can be used as PUBLIC-KEY too. And in fact we did use them that way.
-So, with this fantanstic algorithm. Harry and Sirius both have a pair of keys, firstly they send their PUBLIC-KEY to each other openly. Secondly, the encrypt the message with each other's PULIC-KEY, which is just recieved. Because they know without PRIVATE-KEY, Umbridge is not able to decrypt their message. And the PRIVATE-KEY, of course, they will keep it private.
+One main difference between Asymmetric Cryptography and traditional cryptograghy (also named Reciprocal Cipher) is that the former has two secrets. And if you get something encrypted with SECRET-A, you can't decrypt it unless you have SECRET-B. 
+The two secrets are well known as `public-key` and `private-key`. The relationship between them is like left and right. Left is so called left is baecause the other side is called right. If you choose `public-key` as `private-key`, the `private-key` can be used as `public-key` too. And in fact we did use them that way.
+So, with this fantanstic algorithm. Harry and Sirius both have a pair of keys, firstly they send their `public-key` to each other openly. Secondly, the encrypt the message with each other's PULIC-KEY, which is just recieved. Because they know without `private-key`, Umbridge is not able to decrypt their message. And the `private-key`, of course, they will keep it private.
 
 ![encrypt connection with Master Secret](/media/files/2013/12/18/ssl_02.png)
 
 ## Digital Signature
-I'd like to tell you the story just get its end, but Umbridge is full of craft and cunning. She disguise herself as Sirius, and sends Harry her PUBLISH-KEY. Harry is so naive that he encrypt message with Umbridge's PUBLIC-KEY and send it out. When Harry and Sirius both find the fact it was too late, but they still needs a way to avoid this kind of attack happen again.
-This kinf of attack is well known as Man-in-the-middle attack (MITM). People have invented a way named Digital Signature to avoid it. It is simple. Usually we use each other's PUBLIC-KEY to encrypt message, when do Digital Signature we just use own PRIVATE-KEY to encrypt. And the encrypted message should only can be decrypted with PUBLIC-KEY of whom encrypt it. What is interesting is that we do not need to care what the message is, you just decrypt it and make sure that is what you sent me, then it can prove it is me.
+I'd like to tell you the story just get its end, but Umbridge is full of craft and cunning. She disguise herself as Sirius, and sends Harry her PUBLISH-KEY. Harry is so naive that he encrypt message with Umbridge's `public-key` and send it out. When Harry and Sirius both find the fact it was too late, but they still needs a way to avoid this kind of attack happen again.
+This kinf of attack is well known as Man-in-the-middle attack (MITM). People have invented a way named Digital Signature to avoid it. It is simple. Usually we use each other's `public-key` to encrypt message, when do Digital Signature we just use own `private-key` to encrypt. And the encrypted message should only can be decrypted with `public-key` of whom encrypt it. What is interesting is that we do not need to care what the message is, you just decrypt it and make sure that is what you sent me, then it can prove it is me.
 
 ![encrypt connection with Master Secret](/media/files/2013/12/18/ssl_03.png)
 
 ## Random Number
-The story is not end yet, 'casuse Umbridge gets something new. She catchs some message, although she can't decrypt it, she find they are all same. This means lazy Harry send same message to Sirius and let him do Digitial Signature. when Sirius send signed message back, Harry succesfully decrypted with Sirius's PUBLIC-KEY, and believe the one on the other side is surely Sirius. Umbridge use Harry's lazy, and wait for Harry send out the old message, she send back Harry the message she kept and can't decrypt. Harry decrypt it once more, and he be fooled by Umbridge again.
+The story is not end yet, 'casuse Umbridge gets something new. She catchs some message, although she can't decrypt it, she find they are all same. This means lazy Harry send same message to Sirius and let him do Digitial Signature. when Sirius send signed message back, Harry succesfully decrypted with Sirius's `public-key`, and believe the one on the other side is surely Sirius. Umbridge use Harry's lazy, and wait for Harry send out the old message, she send back Harry the message she kept and can't decrypt. Harry decrypt it once more, and he be fooled by Umbridge again.
 Sirius is angry with that, he told Harry never use the same authentication messge, they need use Random Number. OK, there isn't real random in computer's world. The key here is when Umbridge send back an old mock authentication message, Harry will recognize it's not the one he just send out.
 
 ![encrypt connection with Master Secret](/media/files/2013/12/18/ssl_04.png)
@@ -42,7 +42,7 @@ Sirius is angry with that, he told Harry never use the same authentication messg
 ## Certificate
 Using the methods mentioned above, we can ensure the messages are safe while being transfered. But it is not xianshi to just communiate with the people we know. Most time, we need to communicate with stangers. How can we ensure who is trustable and who is not?
 Here has to be the forth people, Regulus, Sirius brother. He want to communicate with Harry via Internet too, but Harry doesn't know him. So Regulus write in his message, "I'm brother of Sirius, and he send the message to Sirius, Sirius does Digital Signature on the message and send it back. Next time when Regulus wants write to Harry He just embed this message in the mail, Harry would know it's Regulus someone believable and renzheng by Sirius.
-The relationship message signed by Sirius is called CERTIFICATE, consists of TRUST CHAIN and the owner's PUBLIC-KEY, and it is signed (digital) by Certificate Authority (CA, here Sirius). The TRUST CHAIN prove that the owner is trusted by the CA, and the taker can use the PUBLIC-KEY to verify if it is truly the one in the CHAIN.
+The relationship message signed by Sirius is called CERTIFICATE, consists of TRUST CHAIN and the owner's `public-key`, and it is signed (digital) by Certificate Authority (CA, here Sirius). The TRUST CHAIN prove that the owner is trusted by the CA, and the taker can use the `public-key` to verify if it is truly the one in the CHAIN.
 
 ![encrypt connection with Master Secret](/media/files/2013/12/18/ssl_05.png)
 
