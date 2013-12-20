@@ -30,6 +30,22 @@ This kinf of attack is well known as Man-in-the-middle attack (MITM). People hav
 The story is not end yet, 'casuse Umbridge gets something new. She catchs some message, although she can't decrypt it, she find they are all same. This means lazy Harry send same message to Sirius and let him do Digitial Signature. when Sirius send signed message back, Harry succesfully decrypted with Sirius's PUBLIC-KEY, and believe the one on the other side is surely Sirius. Umbridge use Harry's lazy, and wait for Harry send out the old message, she send back Harry the message she kept and can't decrypt. Harry decrypt it once more, and he be fooled by Umbridge again.
 Sirius is angry with that, he told Harry never use the same authentication messge, they need use Random Number. OK, there isn't real random in computer's world. The key here is when Umbridge send back an old mock authentication message, Harry will recognize it's not the one he just send out.
 
+## Certificate
+Using the methods mentioned above, we can ensure the messages are safe while being transfered. But it is not xianshi to just communiate with the people we know. Most time, we need to communicate with stangers. How can we ensure who is trustable and who is not?
+Here has to be the forth people, Regulus, Sirius brother. He want to communicate with Harry via Internet too, but Harry doesn't know him. So Regulus write in his message, "I'm brother of Sirius, and he send the message to Sirius, Sirius does Digital Signature on the message and send it back. Next time when Regulus wants write to Harry He just embed this message in the mail, Harry would know it's Regulus someone believable and renzheng by Sirius.
+The relationship message signed by Sirius is called CERTIFICATE, consists of TRUST CHAIN and the owner's PUBLIC-KEY, and it is signed (digital) by Certificate Authority (CA, here Sirius). The TRUST CHAIN prove that the owner is trusted by the CA, and the taker can use the PUBLIC-KEY to verify if it is truly the one in the CHAIN.
+
 ## Performance
+To here, we get all the tech/注意 we need. It seeds we should use CERTIFICATE to  verify the identity of each other, and use the a... Encrypt to encrypt message, our communication will be safe enough. But it still do not look like diagram above. Because there are two more things we need to do. Performance and Negotiate.
+A en is safer than the traditional en, but it cost more time about 6 times more. So the solution is we use CERTIFICATE, a en and all tech mentioned above to ensure the safety of traditional en MASTER-KEY process. And use traditional en to finish communication.
+According to the diagram, the protocol leave most of a en/de work to the client, so that server, which's amount and 性能 are limited.
 
 ## Negotiate
+SSL exists and improve for years. During these time, many different tra a en method version of certificate were invented and used. So the server and the client need to negotiate a group of the highest version method they both supported to garrunttee the highest safety of communication
+
+## Final
+So the process becaome what it is like in the diagram above finally.
+Phase 1
+Server and client send Random Number to each other and negotiiate the 算法 they will use later.
+Phase 2
+Server send its certificate, and demand client's certificate. After receive server's certificate, client will check if he knows this guy, or some CA knows this guy.
