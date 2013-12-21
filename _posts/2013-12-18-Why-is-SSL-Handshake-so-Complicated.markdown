@@ -23,14 +23,16 @@ To deal this problem, some wise men invented Asymmetric Cryptography
 ## Asymmetric Cryptography
 One main difference between Asymmetric Cryptography and traditional cryptograghy (also named Reciprocal Cipher) is that the former has two secrets. And if you get something encrypted with SECRET-A, you can't decrypt it unless you have SECRET-B. 
 The two secrets are well known as `public-key` and `private-key`. The relationship between them is like left and right. Left is so called left is baecause the other side is called right. If you choose `public-key` as `private-key`, the `private-key` can be used as `public-key` too. And in fact we did use them that way.
-So, with this fantanstic algorithm. Harry and Sirius both have a pair of keys, firstly they send their `public-key` to each other openly. Secondly, the encrypt the message with each other's PULIC-KEY, which is just recieved. Because they know without `private-key`, Umbridge is not able to decrypt their message. And the `private-key`, of course, they will keep it private.
+So, with this fantanstic algorithm. Harry and Sirius both have a pair of keys, firstly they send their `public-key` to each other openly. Secondly, they encrypt the message with each other's `public-key` they just received. And their `private-key`s, of course, they will keep them private. Without exposed `private-key`, Umbridge is not able to decrypt their message.
 
+The connection encrypted with Asymmetric Cryptography is like this:
 ![encrypt connection with Master Secret](/media/files/2013/12/18/ssl_02.png)
 
 ## Digital Signature
-I'd like to tell you the story just get its end, but Umbridge is full of craft and cunning. She disguise herself as Sirius, and sends Harry her PUBLISH-KEY. Harry is so naive that he encrypt message with Umbridge's `public-key` and send it out. When Harry and Sirius both find the fact it was too late, but they still needs a way to avoid this kind of attack happen again.
-This kinf of attack is well known as Man-in-the-middle attack (MITM). People have invented a way named Digital Signature to avoid it. It is simple. Usually we use each other's `public-key` to encrypt message, when do Digital Signature we just use own `private-key` to encrypt. And the encrypted message should only can be decrypted with `public-key` of whom encrypt it. What is interesting is that we do not need to care what the message is, you just decrypt it and make sure that is what you sent me, then it can prove it is me.
+Umbridge is full of craft and cunning. She disguises herself as Sirius, and sends Harry her `public-key`. Harry is so naive that he encrypt the message with Umbridge's `public-key` and send it out. When Harry and Sirius both find out the fact it was too late, but they still need a way to avoid this kind of attack to happen again.
+This kind of attack is well known as Man-in-the-middle attack (MITM). People have invented a way named Digital Signature to avoid it. It is simple. Usually we use each other's `public-key` to encrypt message, when do Digital Signature we just use our own `private-key` to encrypt. And the encrypted message can be decrypted with our own `public-key` only. What is interesting is you do not need to care what the message is, you just decrypt it and make sure that is exactly same with the message you sent me, then it can prove the message sender is definitely me.
 
+Add Digital Signature to the diagram
 ![encrypt connection with Master Secret](/media/files/2013/12/18/ssl_03.png)
 
 ## Random Number
