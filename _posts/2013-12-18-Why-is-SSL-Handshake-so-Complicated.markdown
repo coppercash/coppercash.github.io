@@ -50,10 +50,12 @@ The relationship message signed by Sirius is called `certificate`, consists of T
 ![encrypt connection with Master Secret](/media/files/2013/12/18/ssl_05.png)
 
 ## Performance
-To here, we get all the tech/注意 we need. It seeds we should use `certificate` to  verify the identity of each other, and use the a... Encrypt to encrypt message, our communication will be safe enough. But it still do not look like diagram above. Because there are two more things we need to do. Performance and Negotiate.
-A en is safer than the traditional en, but it cost more time about 6 times more. So the solution is we use `certificate`, a en and all tech mentioned above to ensure the safety of traditional en MASTER-KEY process. And use traditional en to finish communication.
-According to the diagram, the protocol leave most of a en/de work to the client, so that server, which's amount and 性能 are limited.
+After go this far, we get all we need to make our connection safe. But the diagram still does not look like the one from wikipedia. I believe it is because there are some alterations to improve the performance:
+1. Asymmetric Cryptography is safer but costs more time than traditional encryption. The good and fast way is to 
+use Asymmetric Cryptography to generate a `master-secret`, then use `master-secret` to encrypt the following communication.
+2. In the real scene, server always service huge amount of clients. Therefore it would be better if the client can affort more operation during a SSL handshake. For instance, 1) client should start the handshake, 2) client will do the Digital Signature, 3) client will generate the pre-master-secret, 4) client will do the only encryption using Asymmetric Cryptography, 5) server can choose not to check the identity of client
 
+Consider factors above the diagram will look like this:
 ![encrypt connection with Master Secret](/media/files/2013/12/18/ssl_06.png)
 
 ## Negotiate
