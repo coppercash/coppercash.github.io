@@ -3,16 +3,17 @@ title: 简历
 layout: resume
 ---
 
-> 魏迟 / 男 / 1991
-> 邮箱: [coderdreamer@gmail.com](mailto:coderdreamer@gmail.com)
-> 电话: 一八九 一零四三 二一二四
-> 工作年限: 3年
-> 应聘职位: iOS程序员@北京
++ 魏迟 
++ iOS程序员，3年
++ 男 / 1991 / 北京
++ coderdreamer@gmail.com
++ 一八九 一零四三 二一二四
 
 
 ## 工作经历
 
 ### [NimbusBase](http://nimbusbase.com)
+<date>2014年12月 ~ 2015年12月</date>
 
 #### NimbusBase iOS
 

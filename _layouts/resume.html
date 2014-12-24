@@ -1,7 +1,67 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Copper Cash" />
+    {% if page.title %}
+    <title>{{ page.title }}</title>
+    {% else %}
+    <title>{{ site.name }}</title>
+    {% endif %}
+
+    <link rel="shortcut icon" href="/favicon.ico">
+</head>
+
+<body>
+
+<style>
+
+    article {
+        width:828px;
+        margin: 60px auto 100px;
+        font-size: 14px;
+        font-family: "Lekton", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+
+    article ul:first-of-type li {
+        background: no-repeat 0 .2em;
+        padding-left: 26px;
+        list-style-type: none;
+    }
+
+    article ul:first-of-type li:nth-of-type(1) {  /* Name */
+        color: #1b4491;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    article ul:first-of-type li:nth-of-type(2) { /* Objective */
+        color: #1b4491;
+        font-size: 18px;
+    }
+    article ul:first-of-type li:nth-of-type(3) {    /* Detail */
+        background-image: url(/media/img/articles/resume/icn-detail.gif);
+    }
+    article ul:first-of-type li:nth-of-type(4) {    /* Email */
+        background-image: url(/media/img/articles/resume/icn-mail.gif);
+    }
+    article ul:first-of-type li:nth-of-type(5) {    /* Phone */
+        background-image: url(/media/img/articles/resume/icn-tel.gif);
+    }
+
+    article h2 {
+        color:#1b4491;
+    }
+    article h4 {
+        display: inline-flex;
+    }
+    article h4+p {
+        float: right;
+    }
+</style>
 
 <article>
-  {{ content }}
+    {{ content }}
 </article>
+
+</body>
+</html>
