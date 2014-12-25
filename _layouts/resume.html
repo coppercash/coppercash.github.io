@@ -16,45 +16,82 @@
 
 <style>
 
+    body {
+        background-image: url("/media/resources/articles/resume/img/background.png");
+    }
+    a, a:link, a:active, a:visited {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
     article {
-        width:828px;
-        margin: 60px auto 100px;
         font-size: 14px;
         font-family: "Lekton", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+        color: #444;
+
+        max-width: 700px;
+        margin: 60px auto 30px;
+        padding: 60px;
+        background: #fff;
+        box-shadow: 0 1px 3px rgba(0,0,0,.1);
+        position: relative;
     }
     article ul {
         list-style-type: none;
+        padding: 0;
     }
     article hr {
         clear: both;
+        border: none;
+        height: 60px;
+    }
+    article p {
+        font-size: 13px;
+    }
+    article a, a:link, a:active, a:visited, a:hover {
+        color: #777;
     }
 
     article > ul:first-of-type > li { /* Self */
         background: no-repeat 0 .2em;
         padding-left: 26px;
     }
-    article > ul:first-of-type > li:nth-of-type(1) {  /* Name */
-        color: #1b4491;
-        font-weight: bold;
-        font-size: 30px;
+    article > h2:nth-of-type(1) {
+        margin-bottom: 10px;
     }
-    article > ul:first-of-type > li:nth-of-type(2) { /* Objective */
-        color: #1b4491;
-        font-size: 18px;
+    article > h2:nth-of-type(1) + p {
+        margin-top: 0;
     }
-    article > ul:first-of-type > li:nth-of-type(3) {    /* Detail */
-        background-image: url(/media/img/articles/resume/icn-detail.gif);
+    article > h2:nth-of-type(1) + p > em {
+        font-style: normal;
+        font-size: 16px;
+        font-weight: normal;
     }
-    article > ul:first-of-type > li:nth-of-type(4) {    /* Email */
-        background-image: url(/media/img/articles/resume/icn-mail.gif);
+    article > h2:nth-of-type(1) + p + ul > li:nth-of-type(1) {    /* Detail */
+        background-image: url(/media/resources/articles/resume/img/icn-detail.gif);
     }
-    article > ul:first-of-type > li:nth-of-type(5) {    /* Phone */
-        background-image: url(/media/img/articles/resume/icn-tel.gif);
+    article > h2:nth-of-type(1) + p + ul > li:nth-of-type(2) {    /* Email */
+        background-image: url(/media/resources/articles/resume/img/icn-mail.gif);
+    }
+    article > h2:nth-of-type(1) + p + ul > li:nth-of-type(3) {    /* Phone */
+        background-image: url(/media/resources/articles/resume/img/icn-tel.gif);
     }
 
     article h2 {
-        color:#1b4491;
         clear: both;
+        font-weight: bold;
+        font-size: 20px;
+
+        border-left: 50px solid #444;
+        padding-left: 10px;
+        left: -60px;
+        position: relative;
+
+        height: 13px;
+        line-height: 13px;
+        margin: 40px 0 40px 0;
     }
     article h4 {
         display: inline-flex;
@@ -65,23 +102,77 @@
     article > h2 + ul > li > h3 {
         display: inline;
         float: left;
-        width: 40%;
+        width: 30%;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: bold;
     }
     article > h2 + ul > li > ul {
         display: inline;
         float: right;
-        width: 57%;
+        width: 67%;
         padding: 0;
     }
     article > h2 + ul > li > p {
         display: inline;
         float: right;
-        width: 57%;
+        width: 67%;
         padding: 0;
+    }
+    article > h2 + ul > li > h3 > em {
+        display: block;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: normal;
     }
     article > h2 + ul > li > h3 > time {
         display: block;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: normal;
     }
+    article > h2 + ul > li > ul > li > h4 {
+        margin-bottom: 0;
+    }
+    article > h2 + ul > li > ul > li > p {
+        margin-top: 0;
+    }
+
+    /*
+    icons for sections
+    */
+    article > h2::before {
+        content: "";
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: -105px;
+        top: -15px;
+        background-image: url(/media/resources/articles/resume/img/icons.png);
+    }
+    article > h2:nth-of-type(1)::before {
+        background-position: -90px bottom;
+    }
+    article > h2:nth-of-type(2)::before {
+        background-position: -45px top;
+    }
+    article > h2:nth-of-type(3)::before {
+        background-position: -45px bottom;
+    }
+    article > h2:nth-of-type(4)::before {
+        background-position: left top;
+    }
+    article > h2:nth-of-type(5)::before {
+        background-position: right top;
+    }
+    article > h2:nth-of-type(6)::before {
+        background-position: -90px top;
+    }
+
+    article >h2:nth-of-type(4) + ul > li {
+        margin: 3px 0 3px 0;
+    }
+
 </style>
 
 <article>
