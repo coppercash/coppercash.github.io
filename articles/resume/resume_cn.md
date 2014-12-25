@@ -3,11 +3,9 @@ title: 简历
 layout: resume
 ---
 
-## 魏迟 
-*iOS程序员 / 3年*
+## 魏迟 *男 / 1991 / 北京* *iOS程序员（3年）*
 
-+ 男 / 1991 / 北京
-+ coderdreamer@gmail.com
++ [coderdreamer@gmail.com](mailto:coderdreamer@gmail.com)
 + 一八九 一零四三 二一二四
 
 

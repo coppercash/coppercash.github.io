@@ -54,13 +54,25 @@
         color: #777;
     }
 
-    article > ul:first-of-type > li { /* Self */
-        background: no-repeat 0 .2em;
-        padding-left: 26px;
-    }
+
+
     article > h2:nth-of-type(1) {
-        margin-bottom: 10px;
+        margin-top: 0;
+        margin-bottom: 60px;
+        float: left;
+        font-size: 40px;
     }
+    article > h2:nth-of-type(1) > em:nth-of-type(1) {
+        font-size: 14px;
+        font-style: normal;
+    }
+    article > h2:nth-of-type(1) > em:nth-of-type(2) {
+        display: block;
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    /*
     article > h2:nth-of-type(1) + p {
         margin-top: 0;
     }
@@ -69,33 +81,37 @@
         font-size: 16px;
         font-weight: normal;
     }
-    article > h2:nth-of-type(1) + p + ul > li:nth-of-type(1) {    /* Detail */
+    */
+    /*
+    article > h2:nth-of-type(1) + p + ul > li:nth-of-type(1) {    /* Detail
         background-image: url(/media/resources/articles/resume/img/icn-detail.gif);
     }
-    article > h2:nth-of-type(1) + p + ul > li:nth-of-type(2) {    /* Email */
+    */
+    article > h2:nth-of-type(1) + ul {
+        margin: 0;
+        float: right;
+    }
+    article > h2:nth-of-type(1) + ul > li { /* Self */
+        background: no-repeat 0 .2em;
+        padding-left: 26px;
+    }
+    article > h2:nth-of-type(1) + ul > li:nth-of-type(1) {    /* Email */
         background-image: url(/media/resources/articles/resume/img/icn-mail.gif);
     }
-    article > h2:nth-of-type(1) + p + ul > li:nth-of-type(3) {    /* Phone */
+    article > h2:nth-of-type(1) + ul > li:nth-of-type(2) {    /* Phone */
         background-image: url(/media/resources/articles/resume/img/icn-tel.gif);
     }
 
-    article h2 {
+    article > h2 {
         clear: both;
         font-weight: bold;
         font-size: 20px;
-
-        border-left: 50px solid #444;
-        padding-left: 10px;
-        left: -60px;
-        position: relative;
-
-        height: 13px;
-        line-height: 13px;
-        margin: 40px 0 40px 0;
     }
+    /*
     article h4 {
         display: inline-flex;
     }
+    */
     article > h2 + ul > li {
         clear: both;
     }
@@ -141,7 +157,17 @@
     /*
     icons for sections
     */
-    article > h2::before {
+    article > h2:nth-of-type(n+2) {
+        border-left: 50px solid #444;
+        padding-left: 10px;
+        left: -60px;
+        position: relative;
+
+        height: 13px;
+        line-height: 13px;
+        margin: 40px 0 40px 0;
+    }
+    article > h2:nth-of-type(n+2):before {
         content: "";
         position: absolute;
         width: 45px;
@@ -150,9 +176,11 @@
         top: -15px;
         background-image: url(/media/resources/articles/resume/img/icons.png);
     }
+    /*
     article > h2:nth-of-type(1)::before {
         background-position: -90px bottom;
     }
+    */
     article > h2:nth-of-type(2)::before {
         background-position: -45px top;
     }
