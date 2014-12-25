@@ -9,8 +9,6 @@ article {
 
     background: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,.1);
-    position: relative;
-
 }
 
 /*
@@ -19,14 +17,29 @@ link style
 article a, a:link, a:active, a:visited, a:hover {
     color: #777;
 }
-article a:hover {
+a:hover {
     text-decoration: underline;
+}
+
+/*
+lang selector
+*/
+header {
+    overflow: hidden;
+}
+header > ul {
+    margin: 0 30px;
+    float: right;
+    padding: 0;
+}
+header > ul > li {
+    display: inline;
+    margin: 0 10px;
 }
 
 /*
 icons for sections
 */
-
 article > h2:nth-of-type(n+2):before {
     content: "";
     position: absolute;
@@ -52,6 +65,9 @@ article > h2:nth-of-type(6)::before {
     background-position: -90px top;
 }
 
+/*
+Skills
+*/
 article >h2:nth-of-type(4) + ul > li {
     margin: 3px 0 3px 0;
 }
