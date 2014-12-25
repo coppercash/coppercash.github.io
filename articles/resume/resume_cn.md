@@ -29,11 +29,11 @@ layout: resume
  
 ## 个人作品
 
-+ ### IPromise
++ ### IPromise *iOS Library*
   Promise/A+ 标准的 Swift 实现，并在其基础上增加了类型安全，progress，cancel等特性。
-+ ### [指尖外语](https://github.com/coppercash/HoldLanguages)
++ ### [指尖外语](https://github.com/coppercash/HoldLanguages) *iOS App*
   大学时的作品。大量使用手势控制音频播放快慢，进度的听力练习应用。其中应用了我开发的名为"[LAH](https://github.com/coppercash/Lazy_API_with_HTML)"的lib，为App本身提供听力音频，字幕等资源。LAH是一种我自行设计的HTML匹配语言，用途是从web站点上提取有用的信息为iOS应用所用，这也是我毕设的题目。
-+ ### [一张课程表](https://github.com/coppercash/ClasSchedule)
++ ### [一张课程表](https://github.com/coppercash/ClasSchedule) *iOS App*
   大学时期的作品。
 
 ---

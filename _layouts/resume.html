@@ -45,7 +45,7 @@
     article hr {
         clear: both;
         border: none;
-        height: 60px;
+        height: 30px;
     }
     article p {
         font-size: 13px;
@@ -72,21 +72,6 @@
         font-weight: normal;
     }
 
-    /*
-    article > h2:nth-of-type(1) + p {
-        margin-top: 0;
-    }
-    article > h2:nth-of-type(1) + p > em {
-        font-style: normal;
-        font-size: 16px;
-        font-weight: normal;
-    }
-    */
-    /*
-    article > h2:nth-of-type(1) + p + ul > li:nth-of-type(1) {    /* Detail
-        background-image: url(/media/resources/articles/resume/img/icn-detail.gif);
-    }
-    */
     article > h2:nth-of-type(1) + ul {
         margin: 0;
         float: right;
@@ -107,11 +92,7 @@
         font-weight: bold;
         font-size: 20px;
     }
-    /*
-    article h4 {
-        display: inline-flex;
-    }
-    */
+
     article > h2 + ul > li {
         clear: both;
     }
@@ -122,18 +103,7 @@
         font-size: 14px;
         font-style: normal;
         font-weight: bold;
-    }
-    article > h2 + ul > li > ul {
-        display: inline;
-        float: right;
-        width: 67%;
-        padding: 0;
-    }
-    article > h2 + ul > li > p {
-        display: inline;
-        float: right;
-        width: 67%;
-        padding: 0;
+        margin: 0;
     }
     article > h2 + ul > li > h3 > em {
         display: block;
@@ -147,11 +117,26 @@
         font-style: italic;
         font-weight: normal;
     }
+    article > h2 + ul > li > ul {
+        display: inline;
+        float: right;
+        width: 67%;
+        padding: 0;
+        margin: 0 0 30px 0;
+    }
+    article > h2 + ul > li > p {
+        display: inline;
+        float: right;
+        width: 67%;
+        padding: 0;
+        margin: 0 0 30px 0;
+    }
+
     article > h2 + ul > li > ul > li > h4 {
-        margin-bottom: 0;
+        margin: 0;
     }
     article > h2 + ul > li > ul > li > p {
-        margin-top: 0;
+        margin: 0 0 10px 0;
     }
 
     /*
@@ -176,11 +161,7 @@
         top: -15px;
         background-image: url(/media/resources/articles/resume/img/icons.png);
     }
-    /*
-    article > h2:nth-of-type(1)::before {
-        background-position: -90px bottom;
-    }
-    */
+    
     article > h2:nth-of-type(2)::before {
         background-position: -45px top;
     }
