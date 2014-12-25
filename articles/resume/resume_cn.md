@@ -7,6 +7,7 @@ layout: resume
 
 + [coderdreamer@gmail.com](mailto:coderdreamer@gmail.com)
 + 一八九 一零四三 二一二四
++ [打印](javascript:window.print())
 
 
 ## 工作经历
