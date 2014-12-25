@@ -28,5 +28,25 @@
     {{ content }}
 </article>
 
+<script src="/media/js/jquery-1.7.1.min.js"></script>
+<script>
+    (function(){
+        var mediaMatch = window.matchMedia('screen');
+        mediaMatch.addListener(mediaChange);
+        mediaChange(mediaMatch);
+
+        function mediaChange(mediaMatch) {
+            var lis = $('article > h2:nth-of-type(4) + ul > li');
+            var widthFunc = mediaMatch.matches ?
+                    function(li) { return li.children[0].textContent; } :
+                    function(li) { return 'auto'; };
+            lis.each(function(index, li) {
+                var width = widthFunc(li);
+                $(li).width(width);
+            });
+        }
+    }());
+</script>
+
 </body>
 </html>

@@ -41,15 +41,15 @@ layout: resume
 
 ## 技能
 
-+ iOS应用开发: ObjC / Swift / Auto Layout / Core Data / GCD / NSURLoading System
-+ 单元测试: XCTest / JUnit
-+ 数据库: MySQL / SQLite
-+ 版本管理: Git
-+ 开放平台: Google Drive / Dropbox / Box
-+ Android应用开发: Java
-+ 服务器开发: Python / Django / Jinja2 / Flask / SQLAlchemy
-+ Web开发: HTML / JavaScript / CSS 
-+ 其他: JSON
++ iOS开发: ObjC / Swift / Auto Layout / Core Data / GCD / Network Libs *100%*
++ 单元测试: XCTest / JUnit *70%*
++ 数据库: MySQL / SQLite *70%*
++ 版本管理: Git *70%*
++ 开放平台: Google Drive / Dropbox / Box *70%*
++ Android开发: Java *70%*
++ 服务器开发: Python / Django / Jinja2 / Flask / SQLAlchemy *70%*
++ Web开发: HTML / JavaScript / CSS *70%*
++ 其他: JSON *70%*
 
 ---
 
