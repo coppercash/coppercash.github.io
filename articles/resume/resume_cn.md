@@ -12,30 +12,32 @@ layout: resume
 
 ## 工作经历
 
-+ ### [NimbusBase](http://nimbusbase.com) *iOS / Android 程序员* <time>2014年12月 ~ 2015年12月</time>
++ ### [NimbusBase](http://nimbusbase.com) *iOS / Android 程序员* <time>2013.12 - 2015.01</time>
   + #### NimbusBase iOS
-    通过Dropbox等个人云同步Core Data数据的lib。独立一人负责算法设计以、开发、维护。实现了，增量式同步，避免Blob大体积Column的重复传输，兼容iCloud，支持schema migration。该lib在[Cocoapods](http://cocoapods.org/?q=Nimbusbase)上可以直接引用。
+    通过 Dropbox 等个人云同步 Core Data 数据的 lib。独立一人负责算法设计以、开发、维护。实现了，增量式同步，避免 blob 大体积 column 的重复传输，兼容 iCloud，支持 schema migration。该 lib 在 [Cocoapods](http://cocoapods.org/?q=Nimbusbase) 上可以直接引用。
   + #### NimbusBase Android
-    完成上述lib的iOS版本后，又负责了Android版的开发。基于sqlite，实现了与iOS跨平台增量同步。该lib可以通过maven直接引用。
+    完成上述 lib 的 iOS 版本后，又负责了 Android 版的开发。基于 SQLite，实现了与 iOS 跨平台增量同步。该 lib 可以通过 maven 直接引用。
   + #### [BranchList](https://itunes.apple.com/cn/app/branchlist/id885672869)
     基于 NimbusBase iOS 开发的 Todo list 应用。曾获 Apple 中国区 Best New Apps 推荐。
 
-+ ### [加意](http://www.jiae.com) *iOS / Web Server 程序员* <time>2014年12月 ~ 2015年12月</time>
++ ### [加意](http://www.jiae.com) *iOS / Web Server 程序员* <time>2013.05 - 2013.11</time>
   + #### 一起拍
-    图片社交App。独立一人负责这个项目的维护。基于GPUImage开发出一套滤镜用于编辑用户的照片。
+    图片社交 App。独立一人负责这个项目的开发及维护。基于GPUImage开发出一套滤镜用于编辑用户的照片。
   + #### Web & API Server
-    在公司人手不足的情况下，参与了 Web Server 和 API Server 的开发，基于 Python + Jinjia/Django。
+    除负责 iOS App 的开发与维护外，还参与了 Web Server 和 API Server 的开发，基于 Python + Jinjia/Django。
+
++ ### 一碑科技 *iOS 实习生* <time>2012.7 - 2012.8</time>
+  + #### iOS App
+    参与开发了一款基于网络的建材展示销售 iOS 应用，用到了 ASIHTTPRequest。
 
 ---
  
 ## 个人作品
 
-+ ### IPromise *iOS Library*
-  Promise/A+ 标准的 Swift 实现，并在其基础上增加了类型安全，progress，cancel等特性。
++ ### [IPromise](https://github.com/coppercash/IPromise) *iOS Library*
+  [Promise/A+](http://promises-aplus.github.com/promises-spec) 标准的 Swift 实现，是一个管理异步回调的 lib。除了标准中的 *chain* 和 *aggregate* 外，还增加了*类型安全*，*progress*，*cancel* 等特性。
 + ### [指尖外语](https://github.com/coppercash/HoldLanguages) *iOS App*
-  大学时的作品。大量使用手势控制音频播放快慢，进度的听力练习应用。其中应用了我开发的名为"[LAH](https://github.com/coppercash/Lazy_API_with_HTML)"的lib，为App本身提供听力音频，字幕等资源。LAH是一种我自行设计的HTML匹配语言，用途是从web站点上提取有用的信息为iOS应用所用，这也是我毕设的题目。
-+ ### [一张课程表](https://github.com/coppercash/ClasSchedule) *iOS App*
-  大学时期的作品。
+  大学时开发的听力练习 App。包含 LRC 同步显示，手势控制播放进度、回放等功能。其中使用了我开发的名为 [LAH](https://github.com/coppercash/Lazy_API_with_HTML) 的 lib，为 App 从其它网站上抓取音频，字幕等资源。LAH 是我自行设计的 HTML 匹配语言，用途是从 web 站点上提取有用的信息为 iOS 应用所用，这也是我毕设的题目。服务器端基于 Python，并使用了自签名的 SSL 对传输进行了加密。
 
 ---
 
@@ -43,25 +45,29 @@ layout: resume
 
 + iOS开发: ObjC / Swift / Auto Layout / Core Data / GCD / Network Libs *100%*
 + 单元测试: XCTest / JUnit *70%*
-+ 数据库: MySQL / SQLite *70%*
-+ 版本管理: Git *70%*
-+ 开放平台: Google Drive / Dropbox / Box *70%*
++ 数据库: MySQL / SQLite *80%*
++ 版本管理: Git *90%*
 + Android开发: Java *70%*
 + 服务器开发: Python / Django / Jinja2 / Flask / SQLAlchemy *70%*
-+ Web开发: HTML / JavaScript / CSS *70%*
-+ 其他: JSON *70%*
++ Web开发: HTML / JavaScript / CSS *60%*
++ 开放平台: Google Drive / Dropbox / Box *70%*
++ 其他: Vim / JSON *70%*
 
 ---
 
 ## 教育
 
-+ ### 大连工业大学 *网络工程本科* <time>123</time>
-  专业第一名，曾获省政府奖学金，连年获得一等奖学金，获优秀毕业设计。
++ ### 大连工业大学 *网络工程本科* <time>2009 - 2013</time>
+  专业成绩第一名，获省政府奖学金，连年获得一等奖学金，获优秀毕业设计。网络中心维护组负责人。
 
 ---
 
-## 您可能感兴趣的
+## 其他
 
-英语良好
-游泳
-这可能不是一份金光闪闪的简历，但是我想说，曾与我共事过同事包括leader，都希望我能加入他们目前供职的公司
+英语良好。之前的老板是美国人，每天都要读写英文。另外，每周参加人民大学的英语角练习口语。
+
+喜欢游泳。会三种泳姿。每周六日泳2000米，只需约一小时。
+
+这份简历可能并非金光闪闪，但是我想说，我过去的同事和 leader 都几次邀请我加入他们目前供职的公司。我想这是因为在与我共事之后，他们都觉得我是个能够信赖的队友。
+
+最后，感谢您花时间阅读我的简历。
