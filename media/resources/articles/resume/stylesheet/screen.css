@@ -74,6 +74,7 @@ article > h2:nth-of-type(4) + ul > li {
     color: #fff;
     background-color: #444;
     box-sizing: border-box;
+    position: relative;
 
     -webkit-transition: background 0.2s linear;
     -moz-transition: background 0.2s linear;
@@ -88,5 +89,9 @@ article > h2:nth-of-type(4) + ul > li > em {
     color: #aaa;
     text-align: right;
     font-style: normal;
-    float: right;
+    
+    position: absolute;
+    left: auto;
+    width: 50px;
+    right: 10px;
 }
