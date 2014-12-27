@@ -5,7 +5,7 @@ layout: page
 
 a
 
-> iOSer | Pythonist | Swimmer 
+> iOSer \| Pythonist \| Swimmer 
 
 who involved in 
 
