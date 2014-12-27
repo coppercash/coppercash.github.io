@@ -22,7 +22,7 @@ layout: resume
 
 + ### [加意](http://www.jiae.com) *iOS / Web Server 程序员* <time>2013.05 - 2013.11</time>
   + #### 一起拍
-    图片社交 App。独立一人负责这个项目的开发及维护。它的网络部分基于[MKNetworkKit](https://github.com/MugunthKumar/MKNetworkKit)，用户编辑照片的滤镜基于[GPUImage](https://github.com/BradLarson/GPUImage)。
+    图片社交 App。独立一人负责这个项目的开发及维护。它的网络部分基于 [MKNetworkKit](https://github.com/MugunthKumar/MKNetworkKit)，用户编辑照片的滤镜基于 [GPUImage](https://github.com/BradLarson/GPUImage)。
   + #### Web & API Server
     除负责 iOS App 的开发与维护外，还参与了 Web Server 和 API Server 的开发，基于 Python + Jinjia/Django。
 

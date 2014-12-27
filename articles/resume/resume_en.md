@@ -22,7 +22,7 @@ layout: resume
 
 + ### [Jiae](http://www.jiae.com) *iOS / Web Server 程序员* <time>2013.05 - 2013.11</time>
   + #### Crowd Photo
-    A picture social network app. I was responsible for its development alone. Its network part uses the lib [MKNetworkKit](https://github.com/MugunthKumar/MKNetworkKit). The filters to let users edit their photos base on [GPUImage](https://github.com/BradLarson/GPUImage).
+    A picture social network app. I was responsible for its development alone. Its network part uses the lib [MKNetworkKit](https://github.com/MugunthKumar/MKNetworkKit). The filters to let users edit their photos are based on [GPUImage](https://github.com/BradLarson/GPUImage).
   + #### Web & API Server
     Besides developed on iOS, I participated the development of Web Server and API Server, which is based on Python + Jinjia/Django.
 
@@ -66,7 +66,7 @@ layout: resume
 
 Capable to communicate in English. My previous boss is an American, we sent emails in English everyday. Besides, I take part in an English Salon to practice my oral English on every weekend.
 
-Enjoy swimming. I can swim with 3 different strikes. I swim 2000m every Saturday and Sunday cost only about 1 hour.
+Enjoy swimming. I can swim with 3 different strikes. I swim 2000m on every Saturday and Sunday, it costs me only about 1 hour.
 
 Maybe this is not a shinning resume, but there is one thing may assist you to evaluate me more precisely. All my workmates or leaders invited me for several times to join the company they are serving currently. I believe this is because after worked with me, they all regard me as a reliable team-mate. Offer me an opportunity, maybe you would think this way too.
 
