@@ -10,7 +10,7 @@ layout: resume
 + [Print](javascript:window.print())
 
 
-## 工作经历
+## EXPERIENCE
 
 + ### [NimbusBase](http://nimbusbase.com) *iOS / Android Programmer* <time>2013.12 - 2015.01</time>
   + #### NimbusBase iOS
@@ -32,16 +32,16 @@ layout: resume
 
 ---
  
-## 个人作品
+## WORKS
 
 + ### [IPromise](https://github.com/coppercash/IPromise) *iOS Library*
   Promise lib in Swift conforms to [Promise/A+](http://promises-aplus.github.com/promises-spec), which manages the callbacks of async methods. Besides *chain* and *aggregate* required in standard, it supports additional features like *type safe*, *progress* and *cancel*.
-+ ### [指尖外语](https://github.com/coppercash/HoldLanguages) *iOS App*
++ ### [Hold Languages](https://github.com/coppercash/HoldLanguages) *iOS App*
   An app to practice listening, which was developed when I was in college. It has several features like LRC sync display and control progress and playback with gestures. Its server site is based on Python, and the data transfer is enciphered with SSL. I used a lib called [LAH](https://github.com/coppercash/Lazy_API_with_HTML) to fetch audio and lyrics from HTML web sites. LAH is a HTML matching language designed by myself to fetch useful data for iOS from web sites. It was also my graduation project.
 
 ---
 
-## 技能
+## SKILLS
 
 + **iOS**: ObjC / Swift / Auto Layout / Core Data / GCD / Network Libs *100%*
 + **Unit Test**: XCTest / JUnit *70%*
@@ -55,14 +55,14 @@ layout: resume
 
 ---
 
-## 教育
+## EDUCATION
 
 + ### Dalian Polytechnic University *Network Engineering Bachelor* <time>2009 - 2013</time>
   I took the first place when I graduated, obtained major award for years, obtained Provincial Government Scholarship and the Best Graduation Project Award. I was in charge of maintenance group of my college's Network Center. 
 
 ---
 
-## 其他
+## OTHER
 
 Capable to communicate in English. My previous boss is an American, we sent emails in English everyday. Besides, I take part in an English Salon to practice my oral English on every weekend.
 
