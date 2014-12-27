@@ -1,67 +1,73 @@
 ---
-title: 简历
+title: Resume
 layout: resume
 ---
 
-## 魏迟 *男 / 1991 / 北京* *iOS程序员（3年）*
+## William Wei *Male / 1991 / Beijing* *iOS Programmer（3 years）*
 
 + [coderdreamer@gmail.com](mailto:coderdreamer@gmail.com)
-+ 一八九 一零四三 二一二四
-+ [打印](javascript:window.print())
++ I89 IO43 2I24
++ [Print](javascript:window.print())
 
 
 ## 工作经历
 
-+ ### [NimbusBase](http://nimbusbase.com) *iOS / Android 程序员* <time>2014年12月 ~ 2015年12月</time>
++ ### [NimbusBase](http://nimbusbase.com) *iOS / Android Programmer* <time>2013.12 - 2015.01</time>
   + #### NimbusBase iOS
-    通过Dropbox等个人云同步Core Data数据的lib。独立一人负责算法设计以、开发、维护。实现了，增量式同步，避免Blob大体积Column的重复传输，兼容iCloud，支持schema migration。该lib在[Cocoapods](http://cocoapods.org/?q=Nimbusbase)上可以直接引用。
+    A lib to sync data in Core Data via personal cloud like Dropbox. I designed the algorithm, developed and maintained the lib all alone. It is capable to sync incrementally, avoid duplicate transfer of blob columns, support schema migration, and compatible with iCloud. It is available on [Cocoapods](http://cocoapods.org/?q=Nimbusbase).
   + #### NimbusBase Android
-    完成上述lib的iOS版本后，又负责了Android版的开发。基于sqlite，实现了与iOS跨平台增量同步。该lib可以通过maven直接引用。
+    After finished the development of the iOS lib above, I was in charge of the development of its Android version. It is based on SQLite, and implements cross-platform incremental sync. It is available on Sonatype.
   + #### [BranchList](https://itunes.apple.com/cn/app/branchlist/id885672869)
-    基于 NimbusBase iOS 开发的 Todo list 应用。曾获 Apple 中国区 Best New Apps 推荐。
+    A todo-list app bases on NimbusBase iOS. It was recommended by Apple China as one of the Best New Apps.
 
-+ ### [加意](http://www.jiae.com) *iOS / Web Server 程序员* <time>2014年12月 ~ 2015年12月</time>
-  + #### 一起拍
-    图片社交App。独立一人负责这个项目的维护。基于GPUImage开发出一套滤镜用于编辑用户的照片。
++ ### [Jiae](http://www.jiae.com) *iOS / Web Server 程序员* <time>2013.05 - 2013.11</time>
+  + #### Crowd Photo
+    A picture social network app. I was responsible for its development alone. Its network part uses the lib [MKNetworkKit](https://github.com/MugunthKumar/MKNetworkKit). The filters to let users edit their photos base on [GPUImage](https://github.com/BradLarson/GPUImage).
   + #### Web & API Server
-    在公司人手不足的情况下，参与了 Web Server 和 API Server 的开发，基于 Python + Jinjia/Django。
+    Besides developed on iOS, I participated the development of Web Server and API Server, which is based on Python + Jinjia/Django.
+
++ ### YiBei Tech *iOS Intern* <time>2012.7 - 2012.8</time>
+  + #### iOS App
+    Participated the development of a app about construction materials, which uses [ASIHTTPRequest](https://github.com/pokeb/asi-http-request) to support its networking.
 
 ---
  
 ## 个人作品
 
-+ ### IPromise *iOS Library*
-  Promise/A+ 标准的 Swift 实现，并在其基础上增加了类型安全，progress，cancel等特性。
++ ### [IPromise](https://github.com/coppercash/IPromise) *iOS Library*
+  Promise lib in Swift conforms to [Promise/A+](http://promises-aplus.github.com/promises-spec), which manages the callbacks of async methods. Besides *chain* and *aggregate* required in standard, it supports additional features like *type safe*, *progress* and *cancel*.
 + ### [指尖外语](https://github.com/coppercash/HoldLanguages) *iOS App*
-  大学时的作品。大量使用手势控制音频播放快慢，进度的听力练习应用。其中应用了我开发的名为"[LAH](https://github.com/coppercash/Lazy_API_with_HTML)"的lib，为App本身提供听力音频，字幕等资源。LAH是一种我自行设计的HTML匹配语言，用途是从web站点上提取有用的信息为iOS应用所用，这也是我毕设的题目。
-+ ### [一张课程表](https://github.com/coppercash/ClasSchedule) *iOS App*
-  大学时期的作品。
+  An app to practice listening, which was developed when I was in college. It has several features like LRC sync display and control progress and playback with gestures. Its server site is based on Python, and the data transfer is enciphered with SSL. I used a lib called [LAH](https://github.com/coppercash/Lazy_API_with_HTML) to fetch audio and lyrics from HTML web sites. LAH is a HTML matching language designed by myself to fetch useful data for iOS from web sites. It was also my graduation project.
 
 ---
 
 ## 技能
 
-+ iOS应用开发: ObjC / Swift / Auto Layout / Core Data / GCD / NSURLoading System
-+ 单元测试: XCTest / JUnit
-+ 数据库: MySQL / SQLite
-+ 版本管理: Git
-+ 开放平台: Google Drive / Dropbox / Box
-+ Android应用开发: Java
-+ 服务器开发: Python / Django / Jinja2 / Flask / SQLAlchemy
-+ Web开发: HTML / JavaScript / CSS 
-+ 其他: JSON
++ **iOS**: ObjC / Swift / Auto Layout / Core Data / GCD / Network Libs *100%*
++ **Unit Test**: XCTest / JUnit *70%*
++ **Database**: MySQL / SQLite *80%*
++ **Version Control**: Git *90%*
++ **Android**: Java *70%*
++ **Server**: Python / Django / Jinja2 / Flask / SQLAlchemy *70%*
++ **Web**: HTML / JavaScript / CSS *60%*
++ **Open Platforms**: Google Drive / Dropbox / Box *70%*
++ **Other**: Vim / JSON *70%*
 
 ---
 
 ## 教育
 
-+ ### 大连工业大学 *网络工程本科* <time>123</time>
-  专业第一名，曾获省政府奖学金，连年获得一等奖学金，获优秀毕业设计。
++ ### Dalian Polytechnic University *Network Engineering Bachelor* <time>2009 - 2013</time>
+  I took the first place when I graduated, obtained major award for years, obtained Provincial Government Scholarship and the Best Graduation Project Award. I was in charge of maintenance group of my college's Network Center. 
 
 ---
 
-## 您可能感兴趣的
+## 其他
 
-英语良好
-游泳
-这可能不是一份金光闪闪的简历，但是我想说，曾与我共事过同事包括leader，都希望我能加入他们目前供职的公司
+Capable to communicate in English. My previous boss is an American, we sent emails in English everyday. Besides, I take part in an English Salon to practice my oral English on every weekend.
+
+Enjoy swimming. I can swim with 3 different strikes. I swim 2000m every Saturday and Sunday cost only about 1 hour.
+
+Maybe this is not a shinning resume, but there is one thing may assist you to evaluate me more precisely. All my workmates or leaders invited me for several times to join the company they are serving currently. I believe this is because after worked with me, they all regard me as a reliable team-mate. Offer me an opportunity, maybe you would think this way too.
+
+Thanks for reading my resume!

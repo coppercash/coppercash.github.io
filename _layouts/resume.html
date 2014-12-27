@@ -38,7 +38,7 @@
         function mediaChange(mediaMatch) {
             var lis = $('article > h2:nth-of-type(4) + ul > li');
             var widthFunc = mediaMatch.matches ?
-                    function(li) { return li.children[0].textContent; } :
+                    function(li) { return li.children[1].textContent; } :
                     function(li) { return 'auto'; };
             lis.each(function(index, li) {
                 var width = widthFunc(li);
