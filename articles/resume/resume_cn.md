@@ -6,7 +6,7 @@ layout: resume
 ## 魏迟 *男 / 1991 / 北京* *iOS程序员（3年）*
 
 + [coderdreamer@gmail.com](mailto:coderdreamer@gmail.com)
-+ 一八九 一零四三 二一二四
++ I89 IO43 2I24
 + [打印](javascript:window.print())
 
 
