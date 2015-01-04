@@ -20,7 +20,7 @@ layout: resume
   + #### [BranchList](https://itunes.apple.com/cn/app/branchlist/id885672869)
     A todo-list app bases on NimbusBase iOS. It was recommended by Apple China as one of the Best New Apps.
 
-+ ### [Jiae](http://www.jiae.com) *iOS / Web Server 程序员* <time>2013.05 - 2013.11</time>
++ ### [Jiae](http://www.jiae.com) *iOS / Web Server Programmer* <time>2013.05 - 2013.11</time>
   + #### Crowd Photo
     A picture social network app. I was responsible for its development alone. Its network part uses the lib [MKNetworkKit](https://github.com/MugunthKumar/MKNetworkKit). The filters to let users edit their photos are based on [GPUImage](https://github.com/BradLarson/GPUImage).
   + #### Web & API Server
