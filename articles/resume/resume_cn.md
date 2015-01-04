@@ -12,7 +12,7 @@ layout: resume
 
 ## 工作经历
 
-+ ### [NimbusBase](http://nimbusbase.com) *iOS / Android 程序员* <time>2013.12 - 2015.01</time>
++ ### [NimbusBase](http://nimbusbase.com) *iOS / Android 程序员* <time>2013.12 - 2015</time>
   + #### NimbusBase iOS
     通过 Dropbox 等个人云同步 Core Data 数据的 lib。独立一人负责算法设计以、开发、维护。实现了，增量式同步，避免 blob 大体积 column 的重复传输，兼容 iCloud，支持 schema migration。该 lib 在 [Cocoapods](http://cocoapods.org/?q=Nimbusbase) 上可以直接引用。
   + #### NimbusBase Android
