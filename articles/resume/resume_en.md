@@ -12,7 +12,7 @@ layout: resume
 
 ## EXPERIENCE
 
-+ ### [NimbusBase](http://nimbusbase.com) *iOS / Android Programmer* <time>2013.12 - 2015.01</time>
++ ### [NimbusBase](http://nimbusbase.com) *iOS / Android Programmer* <time>2013.12 - 2015</time>
   + #### NimbusBase iOS
     A lib to sync data in Core Data via personal cloud like Dropbox. I designed the algorithm, developed and maintained the lib all alone. It is capable to sync incrementally, avoid duplicate transfer of blob columns, support schema migration, and compatible with iCloud. It is available on [Cocoapods](http://cocoapods.org/?q=Nimbusbase).
   + #### NimbusBase Android
