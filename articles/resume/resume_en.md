@@ -66,6 +66,8 @@ layout: resume
 
 Capable to communicate in English. My previous boss is an American, we sent emails in English everyday. Besides, I take part in an English Salon to practice my oral English on every weekend.
 
+Very organized. A practitioner of GTD. Organize my life and work with the help of Omnifocus.
+
 Enjoy swimming. I can swim with 3 different strikes. I swim 2000m on every Saturday and Sunday, it costs me only about 1 hour.
 
 Maybe this is not a shinning resume, but there is one thing may assist you to evaluate me more precisely. All my workmates or leaders invited me for several times to join the company they are serving currently. I believe this is because after worked with me, they all regard me as a reliable team-mate. Offer me an opportunity, maybe you would think this way too.
