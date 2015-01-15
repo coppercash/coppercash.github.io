@@ -18,7 +18,9 @@ layout: resume
   + #### NimbusBase Android
     完成上述 lib 的 iOS 版本后，又负责了 Android 版的开发。基于 SQLite，实现了与 iOS 跨平台增量同步。该 lib 可以通过 Sonatype 直接引用。
   + #### [BranchList](https://itunes.apple.com/cn/app/branchlist/id885672869)
-    基于 NimbusBase iOS 开发的 todo-list 应用。曾获 Apple 中国区 Best New Apps 推荐。
+    基于 NimbusBase iOS 开发的 todo-list 应用。可将用户的数据同步到 Google Drive、Dropbox 或是 Box。曾获 Apple 中国区 Best New Apps 推荐。
+  + #### Match
+    一款类似 Tinder 的 App。 使用 Swift 开发，后端基于 CouchDB。开发过程遵从了 MVVM 设计模式和 TDD 工作流程。使用了下文提到的 *IPromise* lib 管理异步事件。
 
 + ### [加意](http://www.jiae.com) *iOS / Web Server 程序员* <time>2013.05 - 2013.11</time>
   + #### 一起拍
@@ -51,7 +53,7 @@ layout: resume
 + **服务器开发**: Python / Django / Jinja2 / Flask / SQLAlchemy *70%*
 + **Web开发**: HTML / JavaScript / CSS *60%*
 + **开放平台**: Google Drive / Dropbox / Box *70%*
-+ **其他**: Vim / JSON *70%*
++ **其他**: Vim / JSON / Markdown *70%*
 
 ---
 

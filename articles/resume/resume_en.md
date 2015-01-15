@@ -18,7 +18,9 @@ layout: resume
   + #### NimbusBase Android
     After finished the development of the iOS lib above, I was in charge of the development of its Android version. It is based on SQLite, and implements cross-platform incremental sync. It is available on Sonatype.
   + #### [BranchList](https://itunes.apple.com/cn/app/branchlist/id885672869)
-    A todo-list app bases on NimbusBase iOS. It was recommended by Apple China as one of the Best New Apps.
+    A todo-list app bases on NimbusBase iOS, which is capable to sync users' data to Google Drive, Dropbox or Box. It was recommended by Apple China as one of the Best New Apps.
+  + #### Match
+    An app likes Tinder a lot. It is developed with Swift, and the server-end is based on CouchDB. While developing, I followed MVVM design pattern and TDD working flow. It uses the *IPromise* lib mentioned below to organize async events.
 
 + ### [Jiae](http://www.jiae.com) *iOS / Web Server Programmer* <time>2013.05 - 2013.11</time>
   + #### Crowd Photo
@@ -51,7 +53,7 @@ layout: resume
 + **Server**: Python / Django / Jinja2 / Flask / SQLAlchemy *70%*
 + **Web**: HTML / JavaScript / CSS *60%*
 + **Open Platforms**: Google Drive / Dropbox / Box *70%*
-+ **Other**: Vim / JSON *70%*
++ **Other**: Vim / JSON / Markdown *70%*
 
 ---
 
