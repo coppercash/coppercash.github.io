@@ -6,20 +6,20 @@ layout: post
 
 [@](http://nshipster.com/at-compiler-directives/)
 
-@class
-\#import
-\#include
+`@class`
+`#import`
+`#include`
 
-@autorelease
-Objc 2.0 有GC，但只有OS X可用
-drain在GC环境下会触发回收，release不会。非GC环境下二者相同。所以该用drain。
-autorelease pool 是嵌套的，逻辑模型是栈
-	被autorelease的对象总会放入栈顶得pool里
-	销毁非栈顶的pool会销毁所有之上的pool
-UIKit会为每个even-loop创建一个autorelease pool
-dispatch queue 会自动创建一个autorelease pool
+### @autorelease
++ Objc 2.0 有GC，但只有OS X可用
++ drain在GC环境下会触发回收，release不会。非GC环境下二者相同。所以该用drain。
++ autorelease pool 是嵌套的，逻辑模型是栈。
+  + 被autorelease的对象总会放入栈顶得pool里。
+  + 销毁非栈顶的pool会销毁所有之上的pool
++ AutoReleasePool is drained after every time a **run loop (event-loop)** end.
++ Every dispatch queue maintain its own AutoReleasePool, but it is no guaranteed when will it be drained.
 
-@encode
+### @encode
 ```objc
 + (NSValue *)valueWithCGAffineTransform:(CGAffineTransform)transform {
     return [NSValue valueWithBytes:&transform     
@@ -37,25 +37,26 @@ char *myCString = "This is a string.";
 NSValue *theValue = [NSValue valueWithBytes:&myCString 
 							   withObjCType:@encode(char **)];
 ```
-KVC
-lookup: 
+## KVC
+### lookup: 
 1. method `key` `getKey` `_key` `_getKey`
 2. ivar `key` `_key` 
 3. `valueForUndefinedKey:`
 
-`const` `volatile`
-`int const * const var`
-`volatile` 防止过度优化，每次访问必须从内存取值，而不是使用寄存器中的cache
+### `const` `volatile`
++ `int const * const var`
++ `volatile` 防止过度优化，每次访问必须从内存取值，而不是使用寄存器中的cache
 
 
-`NULL` `nil` `Nil` `NSNull`
-`NULL` == `nil`
-`Nil` pointer of a Class
-`NSNull` a singleton
+## `NULL` `nil` `Nil` `NSNull`
++ `NULL` == `nil`
++ `Nil` pointer of a Class
++ `NSNull` a singleton
 
-`@protected` `@private` `@public` `@package`
+## `@protected` `@private` `@public` `@package`
 
-Singleton
+## Singleton
+
 ```objc
 + (instancetype)sharedMyObject {
 	static MyObject *_instance = nil;
@@ -87,8 +88,8 @@ class MyObject {
 	}
 }
 ```
+## `+(void)load;` `+(void)initialize;`
 
-`+(void)load;` `+(void)initialize;`
 | feature | `+(void)load` | `+(void)initialize` |
 | :-- | :-- | :-- |
 | 执行时机 | 在程序运行后立即执行 | 在类的方法第一次被调时执行 |
@@ -101,14 +102,14 @@ class MyObject {
 | 能否使用autorelease | 早期版本不能，现在可以 | 通常可以，除非在 `load` 中使用（早期版本） |
 | 线程安全 | ？ | 是 |
 
--ObjC, -all_load, -force_load
+## `-ObjC`, `-all_load`, `-force_load`
 > IMPORTANT: For 64-bit and iPhone OS applications, there is a linker bug that prevents -ObjC from loading objects files from static libraries that contain only categories and no classes. The workaround is to use the -all_load or -force_load flags. -all_load forces the linker to load all object files from every archive it sees, even those without Objective-C code. -force_load is available in Xcode 3.2 and later. It allows finer grain control of archive loading. Each -force_load option must be followed by a path to an archive, and every object file in that archive will be loaded.
 
-`-(NSString *)description;` `-(NSString *)debugDescription;`
-`description` used on UI.
-`debugDescription` has same value with `description` by default. Used in `NSLog(@"%@")` and `po`.
+## `description` `debugDescription`
++ `-(NSString *)description;` used on UI.
++ `-(NSString *)debugDescription;` has same value with `description` by default. Used in `NSLog(@"%@")` and `po`.
 
-`Class` `Method` `SEL` `IMP`
+## `Class` `Method` `SEL` `IMP`
 ```objc
 [self.person setValue:@"Vincent" forKey:@"name"];
 ```
@@ -121,12 +122,7 @@ IMP method = objc_msg_lookup(self.person->isa, sel);
 method(self.person, sel, @"Vincent", @"name");
 ```
 
-When does AutoReleasePool drain?
-
-+ AutoReleasePool is drained after every time a **run loop (event-loop)** end.
-+ Every dispatch queue maintain its own AutoReleasePool, but it is no guaranteed when will it be drained.
-
-Push Notification Device Token 什么时候会变?
+## Push Notification Device Token 什么时候会变?
 After reset system, or restore system from another device's backup.
 Every time the app launches, it should register the currently valid token to server, and unregister it when user logout. The invalid tokens can be found via APNs **feedback** function.
 
